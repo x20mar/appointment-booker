@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Gregory House",
+        "address": "Old College, South Bridge, Edinburgh EH8 9YL",
+        "latitude": 55.944507,
+        "longitude": -3.189213
+    },
+    {
+        "id": 2,
+        "name": "John Dorian",
+        "address": "University Avenue, Glasgow G12 8QQ",
+        "latitude": 55.872061,
+        "longitude": -4.288297
+    },
+    {
+        "id": 3,
+        "name": "Dr. Leonard McCoy",
+        "address": "King's College, Aberdeen AB24 3FX",
+        "latitude": 57.164719,
+        "longitude": -2.101279
+    },
+    {
+        "id": 4,
+        "name": "Meredith Grey",
+        "address": "St Andrews KY16 9AJ",
+        "latitude": 56.341684,
+        "longitude": -2.794214
+    }
+]
