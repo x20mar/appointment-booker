@@ -19,6 +19,6 @@ confirmation email.` - Email Templates would be useful here, mailhog for emails?
 
 ## Plan of action
 
-* 1 services + email catcher
-* Frontend - views and server side validation. Should also send emails
-* Mailhog - UI for email catching
+* 1 service
+* views and server side validation. Should also send emails
+* dockerised

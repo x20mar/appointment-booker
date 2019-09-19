@@ -1,11 +1,11 @@
 {
-  "name": "frontend",
+  "name": "appointment-booker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon ./src/start.js"
+    "local": "./node_modules/nodemon/bin/nodemon.js ./bin/www",
+    "start": "node ./bin/www"
   },
   "keywords": [],
   "author": "",
