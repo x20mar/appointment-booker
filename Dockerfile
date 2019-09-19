@@ -20,6 +20,5 @@ USER app
 
 EXPOSE 3000
 ENV SERVER_PORT=3000
-ENV NODE_ENV=development
 
 CMD ["npm", "run", "start"]

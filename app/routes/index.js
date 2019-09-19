@@ -17,6 +17,7 @@ router.get('/', (req, res) => {
 router.post('/',
     [
         body('doctor')
+            .not().isEmpty()
             .isNumeric()
             .withMessage('Please select a doctor'),
         body('name')
@@ -69,6 +70,7 @@ router.post('/',
             res.render('form', {
                 title: 'Registration form',
                 errors: errors.array(),
+                doctors: doctors,
                 data: req.body
             })
         }

@@ -22,3 +22,9 @@ confirmation email.` - Email Templates would be useful here, mailhog for emails?
 * 1 service
 * views and server side validation. Should also send emails
 * dockerised
+
+## Improvements that can be made
+
+* Repackage client js with webpack/bower/etc
+* Increase validation used on fields. ie we currently allow dates in the past
+* Add mailhog as a second service so that we can test emails in a dockerised enviornment

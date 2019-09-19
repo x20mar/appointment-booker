@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "local": "./node_modules/nodemon/bin/nodemon.js ./bin/www",
-    "start": "node ./bin/www"
+    "local": "./node_modules/nodemon/bin/nodemon.js start.js",
+    "start": "node start.js"
   },
   "keywords": [],
   "author": "",
